@@ -1,47 +1,49 @@
 # MEL Cloud Demo
+Note: Translation from Fr to En in progress.
+Note: Code still in progress.
 
-Petit programme qui permet de controler les splits de ma clim d'un seul endroit
+"Program that allows to control the splits of my air conditioning from a single place"
 
 ## ESP-32
 
-### OLED Module d'affichage 128X64 I2C SSD1306
+### OLED 128x64 I2C SSD1306
 
-| GPIO | Fonction | Description |
+| GPIO | Name | Description |
 | --- | ----------- | ----------- |
 | 3.3V | VDD |  |
 | GND | GND |  |
 | 22 | SCL |  |
 | 21 | SDA |  |
 
-### Boutons
+### Buttons
 
-| GPIO | Fonction | Description |
+| GPIO | Function | Description |
 | --- | ----------- | ----------- |
-| 13 | UP | Haut|
-| 12 | DOWN | Bas |
-| 32 | RIGHT | Droite |
-| 33 | LEFT | Gauche |
-| 14 | OK | TODO : Pour le moment ça refresh |
-| 26 | SET | +1 a la valeur |
-| 25 | CLEAR | -1 a la valeur |
+| 13 | UP | Up |
+| 12 | DOWN | Down |
+| 32 | RIGHT | Right |
+| 33 | LEFT | Left |
+| 14 | OK | TODO : At the moment is refreshes |
+| 26 | SET | +1 |
+| 25 | CLEAR | -1 |
 
 ### Leds
 
-| GPIO | Fonction | Description |
+| GPIO | Function | Description |
 | --- | ----------- | ----------- |
-| 02 | RED | Appel API en cours |
-| 15 | GREEN | Prêt |
+| 02 | RED | Api call in progress |
+| 15 | GREEN | Ready |
 
-### Autres
+### Others
 
-| GPIO | Fonction | Description |
+| GPIO | Function | Description |
 | --- | ----------- | ----------- |
 | 04 | BUZZER | |
 
-## Author
+## Orginal Author
 
 TASSAIN Thierry
 
 ## License
 
-MEL Cloud Demo is licensed under the Apache v2 License. See the LICENSE file for more info.
+This might still be licensed under the Apache v2 License. See the LICENSE file for more info.
